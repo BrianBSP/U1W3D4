@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #131334;
+  font-family: "Outfit", sans-serif;
+  color: #ebebeb;
+}
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 64px;
+  font-weight: 900;
+  position: relative;
+  top: 16px;
+  z-index: 1;
+  pointer-events: none;
+  text-align: center;
+}
+
+#tab-numeri {
+  background-color: #0c0b1d;
+  color: #ebebeb;
+  border-radius: 8px;
+  border: 8px solid #0c0b1d;
+}
+.numero {
+  display: inline-block;
+  width: 13.6%;
+  height: 106px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.day:hover {
+  background-color: #15132e;
+}
+button {
+  width: 100px;
+  height: 70px;
+  background-color: #131334;
+  font-family: "Outfit", sans-serif;
+  color: #ebebeb;
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+}
+#numero-estratto {
+  margin: 5px 45%;
+  display: inline-block;
+  text-align: center;
+}
